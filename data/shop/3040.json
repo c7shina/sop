@@ -1,0 +1,10 @@
+{
+  "siteID": "3040",
+  "dataFile": "./data/cast/3040_sort.json",
+  "URL_INFO": {
+    "BASE_URL": "https://kobe3040.com",
+    "CAST_DETAIL": "/profile?id=",
+    "CAST_THUMB1": "/def/con?x=270&p=upload/cast/",
+    "CAST_THUMB2": ""
+  }
+}

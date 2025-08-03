@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/casts.css">
+    <script src="js/loadCastData.js"></script>
+    <script type="text/javascript">
+      function createTest(){
+        let baseUrl = document.getElementById('base_url').textValue
+        alert(baseUrl);
+        let param_part = (baseUrl.indexOf('?') > -1) ? '&' + processWID(comicInfo.id, CODING_MODE.ENCODE) : '?' + processWID(comicInfo.id, CODING_MODE.ENCODE);
+        //alert(baseUrl + param_part);
+      }
+    </script>
+    <title>CP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <div class="gallery" id="listRoot">
+      <!--
+        <div class="thumbnail">
+            <h1 class="name">★ あいうち<span class="rubi">aiuchi</span></span></h1>
+            <img src="https://www.c-pet.jp/companion/aiuchi/member/thumb.jpg"><br>
+            <h2 class="sizeB"><span class="cup">F</span> B: 88</h2>
+            <h3 class="size">T: 168 W: 57 H: 87</h3>
+        </div>
+      -->
+    </div>
+    <br><hr><br>
+    <p>Copyright &#x1F44D; </p>
+  
+  
+</body></html>
+  
