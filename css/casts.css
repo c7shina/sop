@@ -1,0 +1,108 @@
+body {
+	background: #fff3e4;
+	color: #66161a;
+    font-family: Arial, sans-serif;
+    margin: 0px 0px 10em 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 1px 0px;
+    padding: 0px;
+  }
+
+  h1 {
+	  color: #66161a;
+	  background: #eee8c0;
+	  font-size: 1.5em;
+	  margin: 0.1em 0.2em;
+  }
+  
+  .name {
+	  font-family: "Yuji Syuku";
+	  margin-bottom: 0;
+  }
+  
+  h2 {
+	  font-size: 1.2em;
+	  margin: 0.2em 0.1em;
+  }
+  
+  
+  h3 {
+	  font-size: 1.1em;
+	  margin: 0.2em 0.1em;
+  }
+  
+  h4 {
+	  font-size: 0.9em;
+	  margin: 0.1em 0.3em;
+  }
+  
+  h4.rubi {
+	  color: #66161a;
+	  background: #eee8c0;
+	  font-family: "Yuji Syuku";
+	  margin-top: 0;
+  }
+  
+  span.cup {
+	  color: #101010;
+	  background: #fff3e4;
+	  font-size: 1.5em;
+	  border-radius: 1.0em;
+	  padding: 0.1em 0.5em;
+	  margin: 0 0.3em;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .thumbnail {
+    background: #66161a;
+    color: #fff3e4;
+    text-align: center;
+    width: 100%;
+    max-width: 230px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    display: inline-block;
+  }
+
+  .thumbnail:hover {
+    transform: scale(1.05);
+  }
+
+  .img-container {
+    position: relative;
+    width: 200px;
+    margin-bottom: 0px;
+  }
+
+  .img-container img {
+	  width: 100%;
+  }
+
+  .overlay-text {
+    position: absolute;
+    bottom: 5px;
+    left: 0vw;
+    
+    color: black;
+    background-color: rgba(255,255,0, 0.6);
+    font-size: 0.9em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+
