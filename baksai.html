@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bbs.css">
+    <link rel="stylesheet" href="./css/tooltip.css">
+    <script src="./js/loadBBSData.js"></script>
+    <script src="./js/tooltip.js"></script>
+    <script type="text/javascript">
+      // ツールチップを生成する
+      var tooltip = new Tooltip();
+    </script>
+    <title>bakusai</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="navi thPrev"></div>
+      <div class="navi thTitle"></div>
+      <div class="navi thNext"></div>
+    </div>
+    <div id="msg_root">
+        <div class="container">
+            <div class="msgHeader">
+                <div class="msgID">1</div>
+                <div class="date">2024/12/21 23:59</div>
+                <div class="castInfo">■■</div>
+            </div>
+            <div class="replyTo">&gt;&gt;100</div>
+            <div class="contents"><p>あい<span class="highlight-castname" id="test-over" onmouseover="tooltip.Schedule(this,event)" tooltip="ほげほげ">うえ</span>お</p></div>
+        </div>
+    </div>
+    <div id="footer">
+      <div id="thPrev" class="navi thPrev"></div>
+      <div id="thTitle" class="navi thTitle"></div>
+      <div id="thNext" class="navi thNext"></div>
+    </div>
+  </body>
+</html>
