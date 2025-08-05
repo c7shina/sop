@@ -1,0 +1,15 @@
+/* 内容 */
+.tooltip-content {
+    position: relative;
+    left: -3px;
+    top: -3px;
+
+    background-color: #ffffe1;
+    border: 1px black solid;
+    padding: 3px;
+}
+/* 影 */
+.tooltip-shadow {
+    position: absolute;
+    background-image: url('img/shadow.svg');
+}
