@@ -1,0 +1,84 @@
+div.container {
+    background-color: #e8e8e8;
+}
+
+.container > div.msgHeader {
+    background-color: #cccccc;
+    display: flex;
+}
+
+div.msgHeader > div {
+    padding: 0.3em 0.7em;
+}
+div.msgID {
+    width: 2.5em;
+}
+
+.container > div.contents {
+    padding: 0.3em 0.7em;
+}
+.container > div.replyTo {
+    padding: 0em 0.7em;
+}
+
+p {
+    margin: 0em;
+}
+
+span.highlight-info {
+    background: #f0fff0;
+}
+
+span.highlight-negative {
+    background: #ff9090;
+}
+
+span.highlight-positive {
+    background: #80ffff;
+}
+
+span.highlight-castname {
+    background: #ffffa0;
+    font-weight: bold;
+}
+
+div.cast {
+    text-align: center;
+    width: 125px;
+    max-width: 125px;
+    border: 2px solid #ffffc0;
+    flex-grow: 1;
+    height: 300px;
+    max-height: 300px;
+}
+
+div.cast * {
+    background: #fffff8;
+    margin: 0em; 
+    width: 125px;
+    max-width: 125px;
+}
+
+p.castName {
+    font-size: 1.0em;
+}
+
+/* ヘッダー、フッターナビゲーション */
+#header {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+}
+#footer {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+}
+
+div.navi {
+    padding: 5px 1em;
+    background: #ffcccc;
+    border: solid 3px #c03333;
+    font-weight: bold;
+}
+
