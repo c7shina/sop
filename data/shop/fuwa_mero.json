@@ -1,0 +1,10 @@
+{
+  "siteID": "fuwa_mero",
+  "dataFile": "./data/cast/fuwa_mero_sort.json",
+  "URL_INFO": {
+    "BASE_URL": "https://www.cityheaven.net/hyogo/A2801/A280101/fuwa_mero",
+    "CAST_DETAIL": "/girlid-",
+    "CAST_THUMB1": "https://img2.cityheaven.net/img/girls/kh/fuwa_mero/grpb",
+    "CAST_THUMB2": "_0000000000pc.jpg"
+  }
+}
