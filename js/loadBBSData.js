@@ -32,16 +32,27 @@ function createCastInfoPanel(castID){
 
 }
 
-function highlightText(text, keywords){
+function highlightText(text, keywords, nameKeys){
     let orgText = text;
-    keywords.forEach(({type, keyword, castID}) => {
+    keywords.filter((key) => key.type != 'spam').forEach(({type, keyword, castID}) => {
         const regex = new RegExp(`(${keyword})`, 'g');
         if(type === 'castname'){
-            text = text.replace(regex, `<span class="highlight-${type}" data-cast="${castID}">$1</span>`);
+            //if(nameKeys === undefined){
+                text = text.replace(regex, `<span class="highlight-${type}" data-cast="${castID}">$1</span>`);
+            //}
         } else {
             text = text.replace(regex, `<span class="highlight-${type}">$1</span>`);
         }
     })
+
+    /*
+    if (nameKeys && nameKeys.length > 0){
+        nameKeys.forEach(({type, keyword, castID}) => {
+            const regex = new RegExp(`(${keyword})`, 'g');
+            text = text.replace(regex, `<span class="highlight-${type}" data-cast="${castID}">$1</span>`);
+        })
+    }
+    */
 
     let elemTempP = document.createElement('p');
     elemTempP.innerHTML = text;
@@ -79,7 +90,7 @@ function createMsgElement(msgInfo, keywords, resSource){
         if(resSource){
             resSource.content.split('\n').forEach(paragraph =>{
                 let elemP = createHTMLElement('p', null);
-                const contentWithHighlight = highlightText(paragraph, keywords);
+                const contentWithHighlight = highlightText(paragraph, keywords, msgInfo.names);
                 elemP.innerHTML = `${contentWithHighlight}`;
                 resHTML += elemP.outerHTML;
             })
@@ -92,13 +103,33 @@ function createMsgElement(msgInfo, keywords, resSource){
 
     // 本文処理
     let elemContents = createHTMLElement('div', 'contents ' + msgInfo.type);
-    msgInfo.content.split('\n').forEach(paragraph => {
-        //let elemP = createHTMLTextElement('p', null, paragraph);
-        let elemP = createHTMLElement('p', null);
-        const contentWithHighlight = highlightText(paragraph, keywords);
-        elemP.innerHTML = `${contentWithHighlight}`;
-        elemContents.appendChild(elemP);
-    });
+    
+    // SPAM処理
+    let spamFlag = false;
+    keywords.filter((key) => key.type == 'spam').forEach(({type, keyword, castID}) => {
+        if(msgInfo.content.includes(keyword)){
+            spamFlag = true;
+            let elemP = createHTMLElement('p', null);
+            let elemSPAN = createHTMLTextElement('span', 'highlight-spam', '＝＝SPAM＝＝');
+            elemSPAN.setAttribute('onmouseover', 'tooltip.Schedule(this,event)');
+            elemSPAN.setAttribute('tooltip', msgInfo.content);
+            elemP.appendChild(elemSPAN);
+            elemContents.appendChild(elemP);
+            elemContainer.appendChild(elemContents);
+            return elemContainer;
+        }
+    })
+
+    // 通常メッセージ処理
+    if(!spamFlag){
+        msgInfo.content.split('\n').forEach(paragraph => {
+            //let elemP = createHTMLTextElement('p', null, paragraph);
+            let elemP = createHTMLElement('p', null);
+            const contentWithHighlight = highlightText(paragraph, keywords, msgInfo.names);
+            elemP.innerHTML = `${contentWithHighlight}`;
+            elemContents.appendChild(elemP);
+        });
+    }
     elemContainer.appendChild(elemContents);
     
     return elemContainer;
@@ -150,6 +181,8 @@ async function readLocalJSON() {
             }, new Array());
 
             keywords = keywords.concat(castNameKey);
+
+            // _castnames.json不使用化
             //response = await fetch('data/bbs/' + shopID + '/' + shopID + '_castnames.json');
             //keywords = keywords.concat(await response.json());
         }

@@ -53,5 +53,6 @@
     {"type": "positive", "keyword": "ＮＮ"},
     {"type": "positive", "keyword": "NN"},
     {"type": "positive", "keyword": "ＮＳ"},
-    {"type": "positive", "keyword": "NS"}
+    {"type": "positive", "keyword": "NS"},
+    {"type": "spam", "keyword": "羽島"}
 ]

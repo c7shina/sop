@@ -15,7 +15,16 @@
     <div id="header">
       <div class="navi thPrev"></div>
       <div class="navi thTitle"></div>
+      <div class="navi">
+        <input type="text" name="castSearchKey" size="10" list="cast-names">
+        <input type="submit" value="検索">
+      </div>
+      
       <div class="navi thNext"></div>
+      <datalist id="cast-names">
+        <option>あい</option>
+        <option>じゅんな</option>
+      </datalist>
     </div>
     <div id="msg_root">
         <div class="container">
@@ -25,7 +34,7 @@
                 <div class="castInfo">■■</div>
             </div>
             <div class="replyTo">&gt;&gt;100</div>
-            <div class="contents"><p>あい<span class="highlight-castname" id="test-over" onmouseover="tooltip.Schedule(this,event)" tooltip="ほげほげ">うえ</span>お</p></div>
+            <div class="contents"><p><span class="highlight-castname" id="test-over" onmouseover="tooltip.Schedule(this,event)" tooltip="ほげほげ">あい</span>うえお</p></div>
         </div>
     </div>
     <div id="footer">

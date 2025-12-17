@@ -42,6 +42,11 @@ span.highlight-castname {
     font-weight: bold;
 }
 
+span.highlight-spam {
+    font-size: 0.7em;
+    background: #a0a080;
+}
+
 div.cast {
     text-align: center;
     width: 125px;

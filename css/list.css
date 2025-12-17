@@ -45,6 +45,11 @@ h3 {
     color: #ffffff;
 }
 
+.beppu h3 {
+    background: #f0cca0;
+    color: #ffffff;
+}
+
 
 h4.price {
     margin: 0px;
