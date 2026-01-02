@@ -12,6 +12,11 @@
       "B_Class": "G",
       "W": 58,
       "H": 87
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -27,6 +32,11 @@
       "B_Class": "G",
       "W": 57,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -42,6 +52,11 @@
       "B_Class": "G",
       "W": 60,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -57,6 +72,11 @@
       "B_Class": "G",
       "W": 60,
       "H": 89
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -72,6 +92,11 @@
       "B_Class": "F",
       "W": 59,
       "H": 89
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -87,6 +112,11 @@
       "B_Class": "F",
       "W": 59,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -102,6 +132,11 @@
       "B_Class": "F",
       "W": 60,
       "H": 90
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -117,6 +152,11 @@
       "B_Class": "F",
       "W": 59,
       "H": 87
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -132,6 +172,11 @@
       "B_Class": "F",
       "W": 59,
       "H": 87
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -147,6 +192,11 @@
       "B_Class": "F",
       "W": 59,
       "H": 88
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -162,6 +212,11 @@
       "B_Class": "F",
       "W": 59,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -177,6 +232,11 @@
       "B_Class": "F",
       "W": 57,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -192,6 +252,11 @@
       "B_Class": "F",
       "W": 57,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -207,6 +272,11 @@
       "B_Class": "F",
       "W": 59,
       "H": 86
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -222,6 +292,11 @@
       "B_Class": "E",
       "W": 56,
       "H": 85
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -237,6 +312,11 @@
       "B_Class": "E",
       "W": 59,
       "H": 91
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -252,6 +332,11 @@
       "B_Class": "E",
       "W": 59,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -267,6 +352,11 @@
       "B_Class": "E",
       "W": 57,
       "H": 85
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -282,6 +372,11 @@
       "B_Class": "E",
       "W": 58,
       "H": 87
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -297,6 +392,11 @@
       "B_Class": "E",
       "W": 59,
       "H": 85
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -312,51 +412,11 @@
       "B_Class": "E",
       "W": 59,
       "H": 89
-    }
-  },
-  {
-    "id": "328",
-    "name": "のりか",
-    "age": 43,
-    "rubi": "",
-    "imgID": "328_17622181291.jpg",
-    "star": false,
-    "sizeInfo": {
-      "T": 165,
-      "B": 88,
-      "B_Class": "E",
-      "W": 56,
-      "H": 84
-    }
-  },
-  {
-    "id": "294",
-    "name": "あき",
-    "age": 41,
-    "rubi": "",
-    "imgID": "294_17459057522.jpg",
-    "star": false,
-    "sizeInfo": {
-      "T": 169,
-      "B": 88,
-      "B_Class": "E",
-      "W": 57,
-      "H": 88
-    }
-  },
-  {
-    "id": "229",
-    "name": "みずき",
-    "age": 40,
-    "rubi": "",
-    "imgID": "229_17174715792.jpg",
-    "star": false,
-    "sizeInfo": {
-      "T": 168,
-      "B": 88,
-      "B_Class": "E",
-      "W": 59,
-      "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -372,6 +432,71 @@
       "B_Class": "E",
       "W": 59,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
+    }
+  },
+  {
+    "id": "328",
+    "name": "のりか",
+    "age": 43,
+    "rubi": "",
+    "imgID": "328_17622181291.jpg",
+    "star": false,
+    "sizeInfo": {
+      "T": 165,
+      "B": 88,
+      "B_Class": "E",
+      "W": 56,
+      "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
+    }
+  },
+  {
+    "id": "294",
+    "name": "あき",
+    "age": 41,
+    "rubi": "",
+    "imgID": "294_17459057522.jpg",
+    "star": false,
+    "sizeInfo": {
+      "T": 169,
+      "B": 88,
+      "B_Class": "E",
+      "W": 57,
+      "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
+    }
+  },
+  {
+    "id": "229",
+    "name": "みずき",
+    "age": 40,
+    "rubi": "",
+    "imgID": "229_17174715792.jpg",
+    "star": false,
+    "sizeInfo": {
+      "T": 168,
+      "B": 88,
+      "B_Class": "E",
+      "W": 59,
+      "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -379,7 +504,7 @@
     "name": "わかな",
     "age": 35,
     "rubi": "",
-    "imgID": "https://kobe3040.com/upload/back_image/24.jpg",
+    "imgID": "335_17659531001.jpg",
     "star": false,
     "sizeInfo": {
       "T": 168,
@@ -387,6 +512,11 @@
       "B_Class": "E",
       "W": 58,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -402,6 +532,11 @@
       "B_Class": "D",
       "W": 60,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -417,6 +552,11 @@
       "B_Class": "D",
       "W": 58,
       "H": 87
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -424,7 +564,7 @@
     "name": "みどり",
     "age": 43,
     "rubi": "",
-    "imgID": "330_17624122761.jpg",
+    "imgID": "330_17661264402.jpg",
     "star": false,
     "sizeInfo": {
       "T": 160,
@@ -432,6 +572,11 @@
       "B_Class": "D",
       "W": 58,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -447,36 +592,11 @@
       "B_Class": "D",
       "W": 59,
       "H": 88
-    }
-  },
-  {
-    "id": "46",
-    "name": "あん",
-    "age": 46,
-    "rubi": "",
-    "imgID": "46_16749706942.jpg",
-    "star": false,
-    "sizeInfo": {
-      "T": 160,
-      "B": 87,
-      "B_Class": "D",
-      "W": 59,
-      "H": 85
-    }
-  },
-  {
-    "id": "212",
-    "name": "かず",
-    "age": 46,
-    "rubi": "",
-    "imgID": "212_17065782882.jpg",
-    "star": false,
-    "sizeInfo": {
-      "T": 155,
-      "B": 87,
-      "B_Class": "D",
-      "W": 59,
-      "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -492,6 +612,11 @@
       "B_Class": "D",
       "W": 59,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -507,6 +632,11 @@
       "B_Class": "D",
       "W": 59,
       "H": 89
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -522,6 +652,11 @@
       "B_Class": "D",
       "W": 57,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -537,6 +672,11 @@
       "B_Class": "D",
       "W": 58,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -552,6 +692,11 @@
       "B_Class": "D",
       "W": 59,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -567,6 +712,11 @@
       "B_Class": "D",
       "W": 59,
       "H": 87
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -582,6 +732,11 @@
       "B_Class": "D",
       "W": 58,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": true
     }
   },
   {
@@ -597,6 +752,11 @@
       "B_Class": "D",
       "W": 58,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -612,6 +772,11 @@
       "B_Class": "D",
       "W": 60,
       "H": 89
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -627,6 +792,11 @@
       "B_Class": "D",
       "W": 57,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -642,6 +812,11 @@
       "B_Class": "D",
       "W": 58,
       "H": 85
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -657,6 +832,11 @@
       "B_Class": "D",
       "W": 56,
       "H": 84
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": false,
+      "premium": true
     }
   },
   {
@@ -672,6 +852,11 @@
       "B_Class": "D",
       "W": 57,
       "H": 85
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -687,6 +872,11 @@
       "B_Class": "D",
       "W": 59,
       "H": 89
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -702,6 +892,11 @@
       "B_Class": "D",
       "W": 59,
       "H": 89
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -717,6 +912,11 @@
       "B_Class": "D",
       "W": 59,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -732,6 +932,11 @@
       "B_Class": "C",
       "W": 58,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -747,6 +952,11 @@
       "B_Class": "C",
       "W": 58,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -762,21 +972,11 @@
       "B_Class": "C",
       "W": 58,
       "H": 85
-    }
-  },
-  {
-    "id": "327",
-    "name": "せつな",
-    "age": 41,
-    "rubi": "",
-    "imgID": "327_17648983932.jpg",
-    "star": false,
-    "sizeInfo": {
-      "T": 160,
-      "B": 85,
-      "B_Class": "C",
-      "W": 58,
-      "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -792,6 +992,31 @@
       "B_Class": "C",
       "W": 58,
       "H": 85
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": false,
+      "premium": false
+    }
+  },
+  {
+    "id": "327",
+    "name": "せつな",
+    "age": 41,
+    "rubi": "",
+    "imgID": "327_17648983932.jpg",
+    "star": false,
+    "sizeInfo": {
+      "T": 160,
+      "B": 85,
+      "B_Class": "C",
+      "W": 58,
+      "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -807,6 +1032,11 @@
       "B_Class": "C",
       "W": 57,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -822,6 +1052,11 @@
       "B_Class": "C",
       "W": 58,
       "H": 86
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -837,6 +1072,11 @@
       "B_Class": "C",
       "W": 59,
       "H": 85
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -852,6 +1092,11 @@
       "B_Class": "C",
       "W": 56,
       "H": 87
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -867,6 +1112,11 @@
       "B_Class": "C",
       "W": 57,
       "H": 85
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": true
     }
   },
   {
@@ -882,6 +1132,11 @@
       "B_Class": "C",
       "W": 58,
       "H": 85
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -897,6 +1152,11 @@
       "B_Class": "C",
       "W": 59,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -912,6 +1172,11 @@
       "B_Class": "C",
       "W": 58,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -927,6 +1192,11 @@
       "B_Class": "C",
       "W": 58,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -942,6 +1212,11 @@
       "B_Class": "C",
       "W": 57,
       "H": 84
+    },
+    "options": {
+      "mat_available": true,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -957,6 +1232,11 @@
       "B_Class": "C",
       "W": 58,
       "H": 85
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -972,6 +1252,11 @@
       "B_Class": "C",
       "W": 57,
       "H": 83
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -987,6 +1272,11 @@
       "B_Class": "B",
       "W": 56,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -1002,6 +1292,11 @@
       "B_Class": "B",
       "W": 59,
       "H": 88
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -1017,6 +1312,11 @@
       "B_Class": "B",
       "W": 57,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -1032,6 +1332,11 @@
       "B_Class": "B",
       "W": 57,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -1047,6 +1352,11 @@
       "B_Class": "B",
       "W": 57,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   },
   {
@@ -1062,6 +1372,11 @@
       "B_Class": "B",
       "W": 56,
       "H": 86
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -1077,6 +1392,11 @@
       "B_Class": "B",
       "W": 59,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -1092,6 +1412,11 @@
       "B_Class": "A",
       "W": 58,
       "H": 84
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": true,
+      "premium": false
     }
   },
   {
@@ -1107,6 +1432,11 @@
       "B_Class": "A",
       "W": 55,
       "H": 81
+    },
+    "options": {
+      "mat_available": false,
+      "non_smoking": false,
+      "premium": false
     }
   }
 ]

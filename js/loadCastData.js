@@ -3,6 +3,25 @@ const CONFIG_PATH = './data/shop/';
 let siteCfg;
 let castList;
 
+const OPTION_ICONS = {
+    premium : './img/premium.svg',
+    mat_available : './img/mat.svg',
+    non_smoking : './img/no_smoking.svg'
+};
+
+function displayOptionIcons(parentElem, options){
+    let keyArray = Object.keys(options);
+    for (key of keyArray){
+        console.log(key);
+        if(options[key]){
+            let imgOpt = document.createElement('img');
+            imgOpt.setAttribute('src', OPTION_ICONS[key]);
+            parentElem.appendChild(imgOpt);
+        }
+    }
+    return parentElem;
+}
+
 function createCastDataElement(castInfo){
     let elemDiv = document.createElement('div');
     elemDiv.setAttribute('class', 'thumbnail');
@@ -31,16 +50,39 @@ function createCastDataElement(castInfo){
     elemImgDiv.setAttribute('class', 'img-container');
 
     let elemThumb = document.createElement('img');
+    elemThumb.setAttribute('class', 'cast');
     let imgURL = siteCfg.URL_INFO.CAST_THUMB1 + castInfo.imgID + siteCfg.URL_INFO.CAST_THUMB2;
     imgURL = (siteCfg.URL_INFO.CAST_THUMB1.includes('https')) ? imgURL : siteCfg.URL_INFO.BASE_URL + imgURL;
     elemThumb.setAttribute('src', imgURL);
     elemImgDiv.appendChild(elemThumb);
 
+    //予約人気度
     if(castInfo.popularLevel && castInfo.popularLevel > 0){
         let elemPopularP = document.createElement('p');
         elemPopularP.innerText = '予約人気' + '★'.repeat(castInfo.popularLevel);
         elemPopularP.setAttribute('class', 'overlay-text');
         elemImgDiv.appendChild(elemPopularP);
+    }
+
+    //オプション対応など
+    if(castInfo.options){
+        let elemOptionP = document.createElement('p');
+        elemOptionP = displayOptionIcons(elemOptionP, castInfo.options);
+        
+        /*
+        if(castInfo.options.premium){
+            let imgOpt = document.createElement('img');
+            imgOpt.setAttribute('src', './img/premium.svg');
+            elemOptionP.appendChild(imgOpt);
+        }
+        if(castInfo.options.mat_available){
+            let imgOpt = document.createElement('img');
+            imgOpt.setAttribute('src', './img/mat.svg');
+            elemOptionP.appendChild(imgOpt);
+        }
+        */
+        elemOptionP.setAttribute('class', 'overlay-icons');
+        elemImgDiv.appendChild(elemOptionP);
     }
 
     elemAnchor.appendChild(elemImgDiv);

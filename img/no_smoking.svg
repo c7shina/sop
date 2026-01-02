@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="30" height="30" viewBox="0 0 30 30">
+
+
+  <!-- 着火ー -->
+  <rect x="22" y="15" width="1.5" height="3"
+        fill="#888"/>
+  <rect x="24" y="15" width="1.5" height="3"
+        fill="#888"/>
+
+  <!-- タバコ本体 -->
+  <rect x="5.5" y="15" width="16" height="3"
+        fill="#888"/>
+
+  <!-- 煙 -->
+  <path d="M22 14
+           c0 -3, -8 0, -8 -10"
+        fill="none"
+        stroke="#999"
+        stroke-width="1"
+        stroke-linecap="round"/>
+
+  <path d="M25 14
+           c0 -5, -8 0, -6 -10"
+        fill="none"
+        stroke="#999"
+        stroke-width="1"
+        stroke-linecap="round"/>
+
+
+  <!-- 外枠（禁止マーク） -->
+  <circle cx="15" cy="15" r="13"
+          fill="none"
+          stroke="#D32F2F"
+          stroke-width="3"/>
+
+  <!-- 斜線 -->
+  <line x1="7" y1="7" x2="23" y2="23"
+        stroke="#D32F2F"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+</svg>

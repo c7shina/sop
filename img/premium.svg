@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="30" height="30" viewBox="0 0 15 15">
+  <defs>
+    <!-- ゴールドグラデーション -->
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF2A8"/>
+      <stop offset="50%" stop-color="#FFD24D"/>
+      <stop offset="100%" stop-color="#D4A000"/>
+    </linearGradient>
+
+    <!-- ゴールドグラデーション -->
+    <linearGradient id="goldGrad2" x1="0" y1="0" x2="1" y2="-1">
+      <stop offset="0%" stop-color="#eedd74"/>
+      <stop offset="50%" stop-color="#e5c34a"/>
+      <stop offset="100%" stop-color="#d79703"/>
+    </linearGradient>
+
+    <!-- ゴールドグラデーション -->
+    <linearGradient id="goldGrad3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#faf030"/>
+      <stop offset="70%" stop-color="#e5c34a"/>
+      <stop offset="100%" stop-color="#d79703"/>
+    </linearGradient>
+	
+    <!-- ドロップシャドウ -->
+    <filter id="shadow" x="30%" y="30%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.8"
+                    flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- 王冠本体 -->
+  
+  <path 
+	d="M3 12.5 L12 12.4 L14 5 L7.5 7 L1 5 Z"
+	filter="url(#shadow)"/>
+  
+  <path
+    d="M7.5 12.5 L12 12.5 L14 5 L10.5 7 L7.5 4 Z"
+    fill="url(#goldGrad2)"
+  />
+  <path
+    d="M3 12.5 L7.5 12.5 L7.5 4 L4 7 L1 5 Z"
+    fill="url(#goldGrad2)"
+  />
+
+
+  <!-- 王冠の丸（宝珠） -->
+  <circle cx="1.0" cy="3.5" r="1.0" fill="url(#goldGrad3)" filter="url(#shadow)"/>
+  <circle cx="7.5" cy="2.5" r="1.0" fill="url(#goldGrad3)" filter="url(#shadow)"/>
+  <circle cx="14.0" cy="3.5" r="1.0" fill="url(#goldGrad3)" filter="url(#shadow)"/>
+
+  <!-- 台座 -->
+  <rect x="3" y="13.5" width="9" height="1.0"
+        fill="#9E8F80" filter="url(#shadow)"/>
+
+  <!-- P文字（セリフ体＋強め斜体） -->
+  <text x="7.6" y="11"
+        text-anchor="middle"
+        font-size="8.2"
+        font-weight="bold"
+        font-style="italic"
+        font-family="Times New Roman, Georgia, serif"
+        fill="#9E8F80">
+    P
+  </text>
+
+</svg>
+
+<!--
+      <stop offset="0%" stop-color="#ede18a"/>
+      <stop offset="50%" stop-color="#e5c34a"/>
+		<stop offset="100%" stop-color="#d79703"/>
+-->
+

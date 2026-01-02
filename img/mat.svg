@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="30" height="30" viewBox="0 0 60 60">
+  <g fill="#eee"
+     stroke="#999"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- 枕（右側に来る） -->
+    <rect x="1" y="5" width="15" height="52" rx="4" ry="4"/>
+
+    <!-- 枕内ライン -->
+    <rect x="6" y="11" width="5" height="40" rx="4" ry="4"/>
+
+    <!-- マット本体 -->
+    <rect x="15" y="5" width="42" height="52" rx="10" ry="10"/>
+
+    <!-- 溝（上） -->
+    <rect x="20" y="12" width="30" height="6" rx="3" ry="3"/>
+
+    <!-- 溝（中央） -->
+    <rect x="20" y="28" width="30" height="6" rx="3" ry="3"/>
+
+    <!-- 溝（下） -->
+    <rect x="20" y="43" width="30" height="6" rx="3" ry="3"/>
+
+  </g>
+</svg>
